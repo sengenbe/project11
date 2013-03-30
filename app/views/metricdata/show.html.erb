@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @metricdatum.name %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%= @metricdatum.value %>
+</p>
+
+<p>
+  <b>Adddate:</b>
+  <%= @metricdatum.adddate %>
+</p>
+
+
+<%= link_to 'Edit', edit_metricdatum_path(@metricdatum) %> |
+<%= link_to 'Back', metricdata_path %>
